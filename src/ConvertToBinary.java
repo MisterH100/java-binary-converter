@@ -62,7 +62,7 @@ public class ConvertToBinary {
 
                 if(returnTypeFlag.contentEquals("-text")){
                     String output = "";
-                    String[] tempArr = value.split("-");
+                    String[] tempArr = value.split(" ");
                     for(int i=0;i<tempArr.length;i++){
                         String character = textBinaryConverter.convert(tempArr[i]);
                         output += character;
